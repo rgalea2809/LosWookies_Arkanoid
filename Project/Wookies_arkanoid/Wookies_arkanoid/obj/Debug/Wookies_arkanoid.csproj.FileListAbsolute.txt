@@ -1,5 +1,4 @@
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.exe.config
-C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.exe
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.pdb
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csprojAssemblyReference.cache
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Properties.Resources.resources
@@ -7,3 +6,5 @@ C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkan
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Form1.resources
+C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.MainmenuUI.resources
+C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CopyComplete
