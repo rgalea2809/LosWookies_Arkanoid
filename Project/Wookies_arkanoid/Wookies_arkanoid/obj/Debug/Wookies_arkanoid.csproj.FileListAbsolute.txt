@@ -8,3 +8,14 @@ C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkan
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Form1.resources
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.MainmenuUI.resources
 C:\Users\Rodrigo Mejia\Desktop\WoOKIEs\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CopyComplete
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.exe.config
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.pdb
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csprojAssemblyReference.cache
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Form1.resources
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.MainmenuUI.resources
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Properties.Resources.resources
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.GenerateResource.cache
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CopyComplete
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
+C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.PlayGame.resources

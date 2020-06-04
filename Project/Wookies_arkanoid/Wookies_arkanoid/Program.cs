@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Wookies_arkanoid.Vista;
 
 namespace Wookies_arkanoid
 {
@@ -16,7 +17,7 @@ namespace Wookies_arkanoid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PlayGame());
         }
     }
 }
