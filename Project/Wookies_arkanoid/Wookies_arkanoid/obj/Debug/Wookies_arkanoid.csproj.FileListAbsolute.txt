@@ -19,3 +19,16 @@ C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkano
 C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
 C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
 C:\Users\Melissa\Desktop\FinalProyect\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.PlayGame.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csprojAssemblyReference.cache
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe.config
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Form1.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.MainmenuUI.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Properties.Resources.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.ChangePassword.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.Login.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.PlayGame.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.Signin.resources
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.GenerateResource.cache
+C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CoreCompileInputs.cache
