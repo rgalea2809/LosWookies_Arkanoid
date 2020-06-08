@@ -132,6 +132,14 @@
         <Compile Include="DataRegister\Signup.Designer.cs">
           <DependentUpon>Signup.cs</DependentUpon>
         </Compile>
+        <Compile Include="TOP10\Top10.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="TOP10\Top10.Designer.cs">
+          <DependentUpon>Top10.cs</DependentUpon>
+        </Compile>
+        <Compile Include="TOP10\TopClass.cs" />
+        <Compile Include="TOP10\TopClassDAO.cs" />
         <EmbeddedResource Include="Game\Play.resx">
           <DependentUpon>Play.cs</DependentUpon>
         </EmbeddedResource>
@@ -158,6 +166,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="DataRegister\Signup.resx">
           <DependentUpon>Signup.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="TOP10\Top10.resx">
+          <DependentUpon>Top10.cs</DependentUpon>
         </EmbeddedResource>
         <None Include="packages.config" />
         <None Include="Properties\Settings.settings">

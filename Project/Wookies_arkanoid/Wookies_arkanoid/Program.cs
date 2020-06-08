@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Wookies_arkanoid.Game;
+using Wookies_arkanoid.TOP10;
 using Wookies_arkanoid.Vista;
 
 namespace Wookies_arkanoid
@@ -18,7 +19,7 @@ namespace Wookies_arkanoid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Play());
+            Application.Run(new Top10());
         }
     }
 }
