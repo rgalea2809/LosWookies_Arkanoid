@@ -56,3 +56,40 @@ C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arka
 C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CopyComplete
 C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
 C:\Users\gbsol\Desktop\proyecto final 2\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.exe.config
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Wookies_arkanoid.pdb
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Npgsql.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Buffers.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Memory.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Text.Json.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.ValueTuple.dll
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Npgsql.pdb
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\Npgsql.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Buffers.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Memory.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Text.Json.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\bin\Debug\System.ValueTuple.xml
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csprojAssemblyReference.cache
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe.config
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Form1.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.MainmenuUI.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Properties.Resources.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.ChangePassword.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.Login.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Vista.Signin.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.GenerateResource.cache
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CopyComplete
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.exe
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.pdb
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.Game.Play.resources
+C:\Users\Melissa\Desktop\Proyecto Final\LosWookies_Arkanoid\Project\Wookies_arkanoid\Wookies_arkanoid\obj\Debug\Wookies_arkanoid.csproj.CoreCompileInputs.cache
