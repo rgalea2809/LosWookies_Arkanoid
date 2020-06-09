@@ -8,7 +8,7 @@ namespace Wookies_arkanoid.Controlador
         private static string host = "127.0.0.1",
             database = "Arkanoid",
             userId = "postgres",
-            password = "gbsn";
+            password = "uca";
 
         private static string sConnection =
             $"Server={host};Port=5432;User Id={userId};Password={password};Database={database};";

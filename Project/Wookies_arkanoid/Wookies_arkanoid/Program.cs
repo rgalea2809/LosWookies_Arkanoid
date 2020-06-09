@@ -19,7 +19,7 @@ namespace Wookies_arkanoid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Top10());
+            Application.Run(new Form1());
         }
     }
 }

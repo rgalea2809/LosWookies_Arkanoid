@@ -65,6 +65,7 @@
             this.mainmenuUI1.Name = "mainmenuUI1";
             this.mainmenuUI1.Size = new System.Drawing.Size(901, 635);
             this.mainmenuUI1.TabIndex = 0;
+            this.mainmenuUI1.VisibleChanged += new System.EventHandler(this.mainmenuUI1_VisibleChanged);
             // 
             // Form1
             // 

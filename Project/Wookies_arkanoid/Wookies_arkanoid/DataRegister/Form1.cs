@@ -16,6 +16,13 @@ namespace Wookies_arkanoid
         {
             InitializeComponent();
         }
-        
+
+        private void mainmenuUI1_VisibleChanged(object sender, EventArgs e)
+        {
+            if (mainmenuUI1.Visible == false)
+            {
+                this.Hide();
+            }
+        }
     }
 }

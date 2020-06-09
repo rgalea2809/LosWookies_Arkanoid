@@ -4960,7 +4960,7 @@
         gg==
 </value>
   </data>
-  <data name="scoreBox.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="botonTop10MM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABE4AAADhCAYAAADWOfCkAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA/7JJREFUeF7svQmYnVWd7uu91+vt0/dc+2h3OyR7SCCAwJEEgjKGJEAChElRVBAF
@@ -6958,7 +6958,7 @@
         N0+OENJIct8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ExitMM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAmEAAADhCAYAAACA2mK6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA8x1JREFUeF7s/QmcnVWV9g37fa9fv8/bz/Pab9uPaKfqnJNAAAUhCQEEA4EwhwRR
@@ -8001,7 +8001,7 @@
         AGPZQQAAAIxlBwEAADCWHQQAAMBYdhAAAAAj/fvwH2kqq/SEEJH3AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="botonPlayMM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAoAAAADVCAYAAADHEUFOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA/7JJREFUeF7s/QmcnVWV9g37Pp9fv/30+3z2I/06dFLnnCBBBZRBQMIUCJAEkgBO
