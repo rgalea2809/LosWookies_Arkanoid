@@ -6,6 +6,9 @@ namespace Wookies_arkanoid.Game
     {
         public int Golpes { get; set; }
 
-        public DesignPictureBox() : base(){} 
+        public DesignPictureBox() : base()
+        {
+            Golpes = 0;
+        } 
     }
 }

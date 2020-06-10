@@ -26,6 +26,7 @@ namespace Wookies_arkanoid
         private void ExitMM_Click(object sender, EventArgs e)
         {
             ((Form)this.TopLevelControl).Dispose();
+            Application.Exit();
         }
     }
 }
