@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Wookies_arkanoid.TOP10;
 using Wookies_arkanoid.Vista;
 
 namespace Wookies_arkanoid
@@ -20,7 +21,9 @@ namespace Wookies_arkanoid
 
         private void botonTop10MM_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            Top10 FormTop10 = new Top10();
+            FormTop10.Show();
+            this.Hide();
         }
 
         private void ExitMM_Click(object sender, EventArgs e)

@@ -117,6 +117,7 @@ namespace Wookies_arkanoid.TOP10
             this.tableLayoutPanel1.Controls.Add(this.dataGridView10, 5, 13);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 15;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667F));
@@ -134,7 +135,7 @@ namespace Wookies_arkanoid.TOP10
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(650, 429);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(867, 528);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -143,9 +144,10 @@ namespace Wookies_arkanoid.TOP10
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(68, 140);
+            this.label1.Location = new System.Drawing.Point(90, 175);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 28);
+            this.label1.Size = new System.Drawing.Size(78, 35);
             this.label1.TabIndex = 1;
             this.label1.Text = "1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -156,9 +158,10 @@ namespace Wookies_arkanoid.TOP10
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(68, 196);
+            this.label2.Location = new System.Drawing.Point(90, 245);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 28);
+            this.label2.Size = new System.Drawing.Size(78, 35);
             this.label2.TabIndex = 2;
             this.label2.Text = "2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -169,9 +172,10 @@ namespace Wookies_arkanoid.TOP10
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(68, 252);
+            this.label3.Location = new System.Drawing.Point(90, 315);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 28);
+            this.label3.Size = new System.Drawing.Size(78, 35);
             this.label3.TabIndex = 3;
             this.label3.Text = "3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,9 +186,10 @@ namespace Wookies_arkanoid.TOP10
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(68, 308);
+            this.label4.Location = new System.Drawing.Point(90, 385);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 28);
+            this.label4.Size = new System.Drawing.Size(78, 35);
             this.label4.TabIndex = 4;
             this.label4.Text = "4";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -195,9 +200,10 @@ namespace Wookies_arkanoid.TOP10
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(68, 364);
+            this.label5.Location = new System.Drawing.Point(90, 455);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 28);
+            this.label5.Size = new System.Drawing.Size(78, 35);
             this.label5.TabIndex = 5;
             this.label5.Text = "5";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,9 +214,10 @@ namespace Wookies_arkanoid.TOP10
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(393, 140);
+            this.label6.Location = new System.Drawing.Point(522, 175);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 28);
+            this.label6.Size = new System.Drawing.Size(78, 35);
             this.label6.TabIndex = 6;
             this.label6.Text = "6";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -221,9 +228,10 @@ namespace Wookies_arkanoid.TOP10
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(393, 196);
+            this.label7.Location = new System.Drawing.Point(522, 245);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 28);
+            this.label7.Size = new System.Drawing.Size(78, 35);
             this.label7.TabIndex = 7;
             this.label7.Text = "7";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -234,9 +242,10 @@ namespace Wookies_arkanoid.TOP10
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(393, 252);
+            this.label8.Location = new System.Drawing.Point(522, 315);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 28);
+            this.label8.Size = new System.Drawing.Size(78, 35);
             this.label8.TabIndex = 8;
             this.label8.Text = "8";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -247,9 +256,10 @@ namespace Wookies_arkanoid.TOP10
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(393, 308);
+            this.label9.Location = new System.Drawing.Point(522, 385);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(59, 28);
+            this.label9.Size = new System.Drawing.Size(78, 35);
             this.label9.TabIndex = 9;
             this.label9.Text = "9";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -260,9 +270,10 @@ namespace Wookies_arkanoid.TOP10
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(393, 364);
+            this.label10.Location = new System.Drawing.Point(522, 455);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 28);
+            this.label10.Size = new System.Drawing.Size(78, 35);
             this.label10.TabIndex = 10;
             this.label10.Text = "10";
             this.label10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -285,7 +296,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView1.Location = new System.Drawing.Point(133, 143);
+            this.dataGridView1.Location = new System.Drawing.Point(176, 179);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -300,7 +312,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView1.ShowCellToolTips = false;
             this.dataGridView1.ShowEditingIcon = false;
             this.dataGridView1.ShowRowErrors = false;
-            this.dataGridView1.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView1.Size = new System.Drawing.Size(165, 27);
             this.dataGridView1.TabIndex = 11;
             // 
             // button1
@@ -309,9 +321,10 @@ namespace Wookies_arkanoid.TOP10
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(263, 395);
+            this.button1.Location = new System.Drawing.Point(349, 494);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 31);
+            this.button1.Size = new System.Drawing.Size(165, 30);
             this.button1.TabIndex = 21;
             this.button1.Text = "<< Back";
             this.button1.UseVisualStyleBackColor = false;
@@ -324,10 +337,11 @@ namespace Wookies_arkanoid.TOP10
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.SetColumnSpan(this.pictureBox1, 5);
-            this.pictureBox1.Location = new System.Drawing.Point(151, 40);
+            this.pictureBox1.Location = new System.Drawing.Point(200, 51);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.tableLayoutPanel1.SetRowSpan(this.pictureBox1, 4);
-            this.pictureBox1.Size = new System.Drawing.Size(347, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(463, 107);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -349,7 +363,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.EnableHeadersVisualStyles = false;
             this.dataGridView2.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView2.Location = new System.Drawing.Point(133, 199);
+            this.dataGridView2.Location = new System.Drawing.Point(176, 249);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersVisible = false;
@@ -364,7 +379,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView2.ShowCellToolTips = false;
             this.dataGridView2.ShowEditingIcon = false;
             this.dataGridView2.ShowRowErrors = false;
-            this.dataGridView2.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView2.Size = new System.Drawing.Size(165, 27);
             this.dataGridView2.TabIndex = 22;
             // 
             // dataGridView3
@@ -385,7 +400,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.EnableHeadersVisualStyles = false;
             this.dataGridView3.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView3.Location = new System.Drawing.Point(133, 255);
+            this.dataGridView3.Location = new System.Drawing.Point(176, 319);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowHeadersVisible = false;
@@ -400,7 +416,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView3.ShowCellToolTips = false;
             this.dataGridView3.ShowEditingIcon = false;
             this.dataGridView3.ShowRowErrors = false;
-            this.dataGridView3.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView3.Size = new System.Drawing.Size(165, 27);
             this.dataGridView3.TabIndex = 23;
             // 
             // dataGridView4
@@ -421,7 +437,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView4.EnableHeadersVisualStyles = false;
             this.dataGridView4.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView4.Location = new System.Drawing.Point(133, 311);
+            this.dataGridView4.Location = new System.Drawing.Point(176, 389);
+            this.dataGridView4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
             this.dataGridView4.RowHeadersVisible = false;
@@ -436,7 +453,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView4.ShowCellToolTips = false;
             this.dataGridView4.ShowEditingIcon = false;
             this.dataGridView4.ShowRowErrors = false;
-            this.dataGridView4.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView4.Size = new System.Drawing.Size(165, 27);
             this.dataGridView4.TabIndex = 24;
             // 
             // dataGridView5
@@ -465,7 +482,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView5.EnableHeadersVisualStyles = false;
             this.dataGridView5.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView5.Location = new System.Drawing.Point(133, 367);
+            this.dataGridView5.Location = new System.Drawing.Point(176, 459);
+            this.dataGridView5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.ReadOnly = true;
             this.dataGridView5.RowHeadersVisible = false;
@@ -480,7 +498,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView5.ShowCellToolTips = false;
             this.dataGridView5.ShowEditingIcon = false;
             this.dataGridView5.ShowRowErrors = false;
-            this.dataGridView5.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView5.Size = new System.Drawing.Size(165, 27);
             this.dataGridView5.TabIndex = 25;
             // 
             // dataGridView6
@@ -501,7 +519,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView6.EnableHeadersVisualStyles = false;
             this.dataGridView6.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView6.Location = new System.Drawing.Point(458, 143);
+            this.dataGridView6.Location = new System.Drawing.Point(608, 179);
+            this.dataGridView6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.ReadOnly = true;
             this.dataGridView6.RowHeadersVisible = false;
@@ -516,7 +535,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView6.ShowCellToolTips = false;
             this.dataGridView6.ShowEditingIcon = false;
             this.dataGridView6.ShowRowErrors = false;
-            this.dataGridView6.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView6.Size = new System.Drawing.Size(165, 27);
             this.dataGridView6.TabIndex = 26;
             // 
             // dataGridView7
@@ -537,7 +556,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView7.EnableHeadersVisualStyles = false;
             this.dataGridView7.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView7.Location = new System.Drawing.Point(458, 199);
+            this.dataGridView7.Location = new System.Drawing.Point(608, 249);
+            this.dataGridView7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView7.Name = "dataGridView7";
             this.dataGridView7.ReadOnly = true;
             this.dataGridView7.RowHeadersVisible = false;
@@ -552,7 +572,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView7.ShowCellToolTips = false;
             this.dataGridView7.ShowEditingIcon = false;
             this.dataGridView7.ShowRowErrors = false;
-            this.dataGridView7.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView7.Size = new System.Drawing.Size(165, 27);
             this.dataGridView7.TabIndex = 27;
             // 
             // dataGridView8
@@ -573,7 +593,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView8.EnableHeadersVisualStyles = false;
             this.dataGridView8.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView8.Location = new System.Drawing.Point(458, 255);
+            this.dataGridView8.Location = new System.Drawing.Point(608, 319);
+            this.dataGridView8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView8.Name = "dataGridView8";
             this.dataGridView8.ReadOnly = true;
             this.dataGridView8.RowHeadersVisible = false;
@@ -588,7 +609,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView8.ShowCellToolTips = false;
             this.dataGridView8.ShowEditingIcon = false;
             this.dataGridView8.ShowRowErrors = false;
-            this.dataGridView8.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView8.Size = new System.Drawing.Size(165, 27);
             this.dataGridView8.TabIndex = 28;
             // 
             // dataGridView9
@@ -609,7 +630,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView9.EnableHeadersVisualStyles = false;
             this.dataGridView9.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView9.Location = new System.Drawing.Point(458, 311);
+            this.dataGridView9.Location = new System.Drawing.Point(608, 389);
+            this.dataGridView9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView9.Name = "dataGridView9";
             this.dataGridView9.ReadOnly = true;
             this.dataGridView9.RowHeadersVisible = false;
@@ -624,7 +646,7 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView9.ShowCellToolTips = false;
             this.dataGridView9.ShowEditingIcon = false;
             this.dataGridView9.ShowRowErrors = false;
-            this.dataGridView9.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView9.Size = new System.Drawing.Size(165, 27);
             this.dataGridView9.TabIndex = 29;
             // 
             // dataGridView10
@@ -645,7 +667,8 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView10.EnableHeadersVisualStyles = false;
             this.dataGridView10.GridColor = System.Drawing.Color.MidnightBlue;
-            this.dataGridView10.Location = new System.Drawing.Point(458, 367);
+            this.dataGridView10.Location = new System.Drawing.Point(608, 459);
+            this.dataGridView10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView10.Name = "dataGridView10";
             this.dataGridView10.ReadOnly = true;
             this.dataGridView10.RowHeadersVisible = false;
@@ -660,15 +683,16 @@ namespace Wookies_arkanoid.TOP10
             this.dataGridView10.ShowCellToolTips = false;
             this.dataGridView10.ShowEditingIcon = false;
             this.dataGridView10.ShowRowErrors = false;
-            this.dataGridView10.Size = new System.Drawing.Size(124, 22);
+            this.dataGridView10.Size = new System.Drawing.Size(165, 27);
             this.dataGridView10.TabIndex = 30;
             // 
             // Top10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 429);
+            this.ClientSize = new System.Drawing.Size(867, 528);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Top10";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
