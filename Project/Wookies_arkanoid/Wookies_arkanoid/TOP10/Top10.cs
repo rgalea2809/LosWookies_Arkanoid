@@ -57,5 +57,7 @@ namespace Wookies_arkanoid.TOP10
         {
             Application.Exit();
         }
+
+      
     }
 }

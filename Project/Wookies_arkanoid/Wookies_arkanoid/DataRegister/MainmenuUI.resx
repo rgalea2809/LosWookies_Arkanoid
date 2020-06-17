@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tableLayoutPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="tlpMainMenuUI.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYa
         HSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgo
@@ -2456,7 +2456,7 @@
         MyU7J3NioiRJWz//2Q==
 </value>
   </data>
-  <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picTitle4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABPAAAADVCAYAAADZ7Q6VAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA/7JJREFUeF7s/QuYXNV55wt7PA4GGxBI6qrSjYsQWEJcJO7iYsCSsAVCUlV1gQBD
@@ -4960,7 +4960,7 @@
         gg==
 </value>
   </data>
-  <data name="botonTop10MM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picScoresMM1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABE4AAADhCAYAAADWOfCkAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA/7JJREFUeF7svQmYnVWd7uu91+vt0/dc+2h3OyR7SCCAwJEEgjKGJEAChElRVBAF
@@ -6958,7 +6958,7 @@
         N0+OENJIct8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ExitMM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picExitMM3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAmEAAADhCAYAAACA2mK6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA8x1JREFUeF7s/QmcnVWV9g37fa9fv8/bz/Pab9uPaKfqnJNAAAUhCQEEA4EwhwRR
@@ -8001,7 +8001,7 @@
         AGPZQQAAAIxlBwEAADCWHQQAAMBYdhAAAAAj/fvwH2kqq/SEEJH3AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="botonPlayMM.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayMM2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAoAAAADVCAYAAADHEUFOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EgAACxIB0t1+/AAA/7JJREFUeF7s/QmcnVWV9g37Pp9fv/30+3z2I/06dFLnnCBBBZRBQMIUCJAEkgBO

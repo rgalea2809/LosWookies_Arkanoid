@@ -31,186 +31,154 @@ namespace Wookies_arkanoid.Vista
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Signin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Wookies_arkanoid.Vista.Signin));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.signUp = new System.Windows.Forms.Button();
-            this.pwdTB2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pwdTB1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.nicknameTB = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.grpSignup1 = new System.Windows.Forms.GroupBox();
+            this.bttnBackSignup3 = new System.Windows.Forms.Button();
+            this.bttnExitSignup2 = new System.Windows.Forms.Button();
+            this.bttnSignup1 = new System.Windows.Forms.Button();
+            this.txtConfirmSignup3 = new System.Windows.Forms.TextBox();
+            this.lblConfirmSignup3 = new System.Windows.Forms.Label();
+            this.txtPasswordSignup2 = new System.Windows.Forms.TextBox();
+            this.lblPasswordSignup2 = new System.Windows.Forms.Label();
+            this.txtUserSignup1 = new System.Windows.Forms.TextBox();
+            this.lblUserSignup1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.grpSignup1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tableLayoutPanel1
-            // 
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
             this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tableLayoutPanel1.Controls.Add(this.grpSignup1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 490F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 490);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 398F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(720, 398);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.signUp);
-            this.groupBox1.Controls.Add(this.pwdTB2);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.pwdTB1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.nicknameTB);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("TR2N", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(76, 48);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(807, 394);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "SIGN UP";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
-            this.button3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button3.Location = new System.Drawing.Point(86, 301);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(152, 33);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "<<BACK";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
-            this.button2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button2.Location = new System.Drawing.Point(571, 301);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(138, 33);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "EXIT";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // signUp
-            // 
-            this.signUp.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
-            this.signUp.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.signUp.Location = new System.Drawing.Point(316, 257);
-            this.signUp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.signUp.Name = "signUp";
-            this.signUp.Size = new System.Drawing.Size(139, 40);
-            this.signUp.TabIndex = 6;
-            this.signUp.Text = "SIGN UP";
-            this.signUp.UseVisualStyleBackColor = false;
-            this.signUp.Click += new System.EventHandler(this.signUp_Click);
-            // 
-            // pwdTB2
-            // 
-            this.pwdTB2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.pwdTB2.Location = new System.Drawing.Point(357, 192);
-            this.pwdTB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pwdTB2.Name = "pwdTB2";
-            this.pwdTB2.Size = new System.Drawing.Size(312, 46);
-            this.pwdTB2.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label3.Location = new System.Drawing.Point(20, 195);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(234, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "CONFIRM PASSWORD:";
-            // 
-            // pwdTB1
-            // 
-            this.pwdTB1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.pwdTB1.ForeColor = System.Drawing.Color.Black;
-            this.pwdTB1.Location = new System.Drawing.Point(357, 137);
-            this.pwdTB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pwdTB1.Name = "pwdTB1";
-            this.pwdTB1.Size = new System.Drawing.Size(312, 46);
-            this.pwdTB1.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.Location = new System.Drawing.Point(98, 137);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 29);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "PASSWORD:";
-            // 
-            // nicknameTB
-            // 
-            this.nicknameTB.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.nicknameTB.Location = new System.Drawing.Point(357, 82);
-            this.nicknameTB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.nicknameTB.Name = "nicknameTB";
-            this.nicknameTB.Size = new System.Drawing.Size(312, 46);
-            this.nicknameTB.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(63, 85);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 35);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "USER NICKNAME:";
-            // 
-            // Signin
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.grpSignup1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.grpSignup1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.grpSignup1.BackColor = System.Drawing.Color.Transparent;
+            this.grpSignup1.Controls.Add(this.bttnBackSignup3);
+            this.grpSignup1.Controls.Add(this.bttnExitSignup2);
+            this.grpSignup1.Controls.Add(this.bttnSignup1);
+            this.grpSignup1.Controls.Add(this.txtConfirmSignup3);
+            this.grpSignup1.Controls.Add(this.lblConfirmSignup3);
+            this.grpSignup1.Controls.Add(this.txtPasswordSignup2);
+            this.grpSignup1.Controls.Add(this.lblPasswordSignup2);
+            this.grpSignup1.Controls.Add(this.txtUserSignup1);
+            this.grpSignup1.Controls.Add(this.lblUserSignup1);
+            this.grpSignup1.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.grpSignup1.ForeColor = System.Drawing.Color.White;
+            this.grpSignup1.Location = new System.Drawing.Point(57, 39);
+            this.grpSignup1.Margin = new System.Windows.Forms.Padding(2);
+            this.grpSignup1.Name = "grpSignup1";
+            this.grpSignup1.Padding = new System.Windows.Forms.Padding(2);
+            this.grpSignup1.Size = new System.Drawing.Size(605, 320);
+            this.grpSignup1.TabIndex = 0;
+            this.grpSignup1.TabStop = false;
+            this.grpSignup1.Text = "SIGN UP";
+            this.bttnBackSignup3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
+            this.bttnBackSignup3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.bttnBackSignup3.Location = new System.Drawing.Point(64, 245);
+            this.bttnBackSignup3.Margin = new System.Windows.Forms.Padding(2);
+            this.bttnBackSignup3.Name = "bttnBackSignup3";
+            this.bttnBackSignup3.Size = new System.Drawing.Size(114, 27);
+            this.bttnBackSignup3.TabIndex = 8;
+            this.bttnBackSignup3.Text = "<<BACK";
+            this.bttnBackSignup3.UseVisualStyleBackColor = false;
+            this.bttnBackSignup3.Click += new System.EventHandler(this.button3_Click);
+            this.bttnExitSignup2.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
+            this.bttnExitSignup2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.bttnExitSignup2.Location = new System.Drawing.Point(428, 245);
+            this.bttnExitSignup2.Margin = new System.Windows.Forms.Padding(2);
+            this.bttnExitSignup2.Name = "bttnExitSignup2";
+            this.bttnExitSignup2.Size = new System.Drawing.Size(104, 27);
+            this.bttnExitSignup2.TabIndex = 7;
+            this.bttnExitSignup2.Text = "EXIT";
+            this.bttnExitSignup2.UseVisualStyleBackColor = false;
+            this.bttnExitSignup2.Click += new System.EventHandler(this.button2_Click);
+            this.bttnSignup1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
+            this.bttnSignup1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.bttnSignup1.Location = new System.Drawing.Point(237, 209);
+            this.bttnSignup1.Margin = new System.Windows.Forms.Padding(2);
+            this.bttnSignup1.Name = "bttnSignup1";
+            this.bttnSignup1.Size = new System.Drawing.Size(104, 32);
+            this.bttnSignup1.TabIndex = 6;
+            this.bttnSignup1.Text = "SIGN UP";
+            this.bttnSignup1.UseVisualStyleBackColor = false;
+            this.bttnSignup1.Click += new System.EventHandler(this.signUp_Click);
+            this.txtConfirmSignup3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtConfirmSignup3.Location = new System.Drawing.Point(268, 156);
+            this.txtConfirmSignup3.Margin = new System.Windows.Forms.Padding(2);
+            this.txtConfirmSignup3.Name = "txtConfirmSignup3";
+            this.txtConfirmSignup3.Size = new System.Drawing.Size(235, 38);
+            this.txtConfirmSignup3.TabIndex = 5;
+            this.lblConfirmSignup3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblConfirmSignup3.Location = new System.Drawing.Point(15, 158);
+            this.lblConfirmSignup3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblConfirmSignup3.Name = "lblConfirmSignup3";
+            this.lblConfirmSignup3.Size = new System.Drawing.Size(176, 20);
+            this.lblConfirmSignup3.TabIndex = 4;
+            this.lblConfirmSignup3.Text = "CONFIRM PASSWORD:";
+            this.txtPasswordSignup2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtPasswordSignup2.ForeColor = System.Drawing.Color.Black;
+            this.txtPasswordSignup2.Location = new System.Drawing.Point(268, 111);
+            this.txtPasswordSignup2.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPasswordSignup2.Name = "txtPasswordSignup2";
+            this.txtPasswordSignup2.Size = new System.Drawing.Size(235, 38);
+            this.txtPasswordSignup2.TabIndex = 3;
+            this.lblPasswordSignup2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPasswordSignup2.Location = new System.Drawing.Point(74, 111);
+            this.lblPasswordSignup2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPasswordSignup2.Name = "lblPasswordSignup2";
+            this.lblPasswordSignup2.Size = new System.Drawing.Size(105, 24);
+            this.lblPasswordSignup2.TabIndex = 2;
+            this.lblPasswordSignup2.Text = "PASSWORD:";
+            this.txtUserSignup1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtUserSignup1.Location = new System.Drawing.Point(268, 67);
+            this.txtUserSignup1.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUserSignup1.Name = "txtUserSignup1";
+            this.txtUserSignup1.Size = new System.Drawing.Size(235, 38);
+            this.txtUserSignup1.TabIndex = 1;
+            this.lblUserSignup1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblUserSignup1.Location = new System.Drawing.Point(47, 69);
+            this.lblUserSignup1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUserSignup1.Name = "lblUserSignup1";
+            this.lblUserSignup1.Size = new System.Drawing.Size(143, 28);
+            this.lblUserSignup1.TabIndex = 0;
+            this.lblUserSignup1.Text = "USER NICKNAME:";
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 490);
+            this.ClientSize = new System.Drawing.Size(720, 398);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Signin";
             this.Text = "Signin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.grpSignup1.ResumeLayout(false);
+            this.grpSignup1.PerformLayout();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox nicknameTB;
-        private System.Windows.Forms.TextBox pwdTB1;
-        private System.Windows.Forms.TextBox pwdTB2;
-        private System.Windows.Forms.Button signUp;
+        private System.Windows.Forms.Button bttnBackSignup3;
+        private System.Windows.Forms.Button bttnExitSignup2;
+        private System.Windows.Forms.Button bttnSignup1;
+        private System.Windows.Forms.GroupBox grpSignup1;
+        private System.Windows.Forms.Label lblConfirmSignup3;
+        private System.Windows.Forms.Label lblPasswordSignup2;
+        private System.Windows.Forms.Label lblUserSignup1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TextBox txtConfirmSignup3;
+        private System.Windows.Forms.TextBox txtPasswordSignup2;
+        private System.Windows.Forms.TextBox txtUserSignup1;
 
         #endregion
     }

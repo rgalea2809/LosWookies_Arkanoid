@@ -32,15 +32,15 @@ namespace Wookies_arkanoid.Vista
         {
             try
             {
-                if (nicknameTB.Text.Equals(" ") ||
-                    pwdTB1.Text.Equals("") ||
-                    pwdTB2.Text.Equals(""))
+                if (txtUserSignup1.Text.Equals(" ") ||
+                    txtPasswordSignup2.Text.Equals("") ||
+                    txtConfirmSignup3.Text.Equals(""))
                 {
                     throw new EmptyFormFieldException("No deje espacios vacíos!");
                 }
                 else
                 {
-                    if (pwdTB1.Text != pwdTB2.Text)
+                    if (txtPasswordSignup2.Text != txtConfirmSignup3.Text)
                     {
                         throw new NonMatchingPasswordValidationException("Error en su contraseña. " +
                                                                          "Escriba la misma contraseña en ambos campos");
@@ -48,8 +48,8 @@ namespace Wookies_arkanoid.Vista
                     else
                     {
                         Player p = new Player();
-                        p.nickname = nicknameTB.Text;
-                        p.password = pwdTB1.Text;
+                        p.nickname = txtUserSignup1.Text;
+                        p.password = txtPasswordSignup2.Text;
                         bool added = PlayerDAO.addUser(p);
                         if (added == true)
                         {

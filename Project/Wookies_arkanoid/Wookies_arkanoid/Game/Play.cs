@@ -26,14 +26,14 @@ namespace Wookies_arkanoid.Game
 
         private void Play_Load(object sender, EventArgs e)
         {
-            pictureBox1.BackgroundImage = Image.FromFile("../../Img/Player.png");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            picPlay1.BackgroundImage = Image.FromFile("../../Img/Player.png");
+            picPlay1.BackgroundImageLayout = ImageLayout.Stretch;
 
-            pictureBox1.Top = (Height - pictureBox1.Height) - 80;
-            pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
+            picPlay1.Top = (Height - picPlay1.Height) - 80;
+            picPlay1.Left = (Width / 2) - (picPlay1.Width / 2);
             
-            pictureBox2.BackgroundImage = Image.FromFile("../../Img/Heart.png");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            picPlay2.BackgroundImage = Image.FromFile("../../Img/Heart.png");
+            picPlay2.BackgroundImageLayout = ImageLayout.Stretch;
             
             score = new Label();
             score.Size = new Size(180, 60);
@@ -63,14 +63,14 @@ namespace Wookies_arkanoid.Game
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.BackColor = Color.Transparent;
 
-            ball.Top = pictureBox1.Top - ball.Height;
-            ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+            ball.Top = picPlay1.Top - ball.Height;
+            ball.Left = picPlay1.Left + (picPlay1.Width / 2) - (ball.Width / 2);
 
             Controls.Add(ball);
 
             LoadBricks();
 
-            timer1.Start();
+            tmrPlay.Start();
         }
 
         private void ReloadGame()
@@ -81,8 +81,8 @@ namespace Wookies_arkanoid.Game
             ball.BackgroundImage = Image.FromFile("../../Img/pelota.png");
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.BackColor = Color.Transparent;
-            ball.Top = pictureBox1.Top - ball.Height;
-            ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+            ball.Top = picPlay1.Top - ball.Height;
+            ball.Left = picPlay1.Left + (picPlay1.Width / 2) - (ball.Width / 2);
             Controls.Add(ball);
         }
         
@@ -137,14 +137,14 @@ namespace Wookies_arkanoid.Game
         {
             if (!DataGame.startGame)
             {
-                if (e.X < (Width - pictureBox1.Width))
-                    pictureBox1.Left = e.X;
-                ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+                if (e.X < (Width - picPlay1.Width))
+                    picPlay1.Left = e.X;
+                ball.Left = picPlay1.Left + (picPlay1.Width / 2) - (ball.Width / 2);
             }
             else
             {
-                if (e.X < (Width - pictureBox1.Width))
-                    pictureBox1.Left = e.X;
+                if (e.X < (Width - picPlay1.Width))
+                    picPlay1.Left = e.X;
             }
         }
 
@@ -205,7 +205,7 @@ namespace Wookies_arkanoid.Game
                 return;
             }
 
-            if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
+            if (ball.Bounds.IntersectsWith(picPlay1.Bounds))
                 
                 DataGame.dirY = -DataGame.dirY;
            

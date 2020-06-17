@@ -30,9 +30,9 @@ namespace Wookies_arkanoid.Vista
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedValue.Equals(textBox2.Text))
+            if (cmbUserLogin1.SelectedValue.Equals(txtPasswordLogin1.Text))
             {
-                Player p = (Player) comboBox1.SelectedItem;
+                Player p = (Player) cmbUserLogin1.SelectedItem;
                 Play formGame = new Play();
                 formGame.Show();
                 this.Close();
@@ -47,10 +47,10 @@ namespace Wookies_arkanoid.Vista
         private void loadObjects()
         {
             //Login User combobox options
-            comboBox1.DataSource = null;
-            comboBox1.ValueMember = "password"; 
-            comboBox1.DisplayMember = "nickname";
-            comboBox1.DataSource = PlayerDAO.getPlayers();
+            cmbUserLogin1.DataSource = null;
+            cmbUserLogin1.ValueMember = "password"; 
+            cmbUserLogin1.DisplayMember = "nickname";
+            cmbUserLogin1.DataSource = PlayerDAO.getPlayers();
         }
     }
 }

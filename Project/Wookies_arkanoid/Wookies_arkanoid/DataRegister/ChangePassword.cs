@@ -26,17 +26,17 @@ namespace Wookies_arkanoid.Vista
         {
             try
             {
-                if (comboBox1.SelectedValue.Equals(textBox1.Text))
+                if (cmbUser1.SelectedValue.Equals(txtOldPassword1.Text))
                 {
-                    Player p = (Player) comboBox1.SelectedItem;
-                    if (textBox2.Text.Equals("") ||
-                        textBox3.Text.Equals(""))
+                    Player p = (Player) cmbUser1.SelectedItem;
+                    if (txtNewPassword2.Text.Equals("") ||
+                        txtCNewPassword3.Text.Equals(""))
                     {
                         throw new EmptyFormFieldException("Don't leave blank spaces, fill out the form!");
                     }
                     else
                     {
-                        if (textBox2.Text != textBox3.Text)
+                        if (txtNewPassword2.Text != txtCNewPassword3.Text)
                         {
                             throw new NonMatchingPasswordValidationException("Error en su nueva contraseña. " +
                                                                              "Escriba la misma contraseña en " +
@@ -44,7 +44,7 @@ namespace Wookies_arkanoid.Vista
                         }
                         else
                         {
-                            PlayerDAO.changePassword(p, textBox2.Text);
+                            PlayerDAO.changePassword(p, txtNewPassword2.Text);
                         }
                     }
                 }
@@ -67,10 +67,10 @@ namespace Wookies_arkanoid.Vista
         private void loadObjects()
         {
             //Login User combobox options
-            comboBox1.DataSource = null;
-            comboBox1.ValueMember = "password"; 
-            comboBox1.DisplayMember = "nickname";
-            comboBox1.DataSource = PlayerDAO.getPlayers();
+            cmbUser1.DataSource = null;
+            cmbUser1.ValueMember = "password"; 
+            cmbUser1.DisplayMember = "nickname";
+            cmbUser1.DataSource = PlayerDAO.getPlayers();
         }
     }
 }

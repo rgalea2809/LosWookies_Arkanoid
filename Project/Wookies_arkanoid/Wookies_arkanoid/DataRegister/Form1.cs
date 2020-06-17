@@ -19,7 +19,7 @@ namespace Wookies_arkanoid
 
         private void mainmenuUI1_VisibleChanged(object sender, EventArgs e)
         {
-            if (mainmenuUI1.Visible == false)
+            if (MainMenuUI1.Visible == false)
             {
                 this.Hide();
             }
