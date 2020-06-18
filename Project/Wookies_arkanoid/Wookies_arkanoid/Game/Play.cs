@@ -226,6 +226,28 @@ namespace Wookies_arkanoid.Game
 
                             if (dpb[i, j].Golpes == 0)
                             {
+                                
+                                //Add more points depending on the color of the block:
+                                if (i== 4)
+                                {
+                                    countScore++;
+                                }
+                                if (i == 3)
+                                {
+                                    countScore+=2;
+                                }
+                                if (i == 2)
+                                {
+                                    countScore += 3;
+                                }
+                                if (i == 1)
+                                {
+                                    countScore += 3;
+                                }
+                                if (i == 0)
+                                {
+                                    countScore += 4;
+                                }
                                 Controls.Remove(dpb[i, j]);
                                 countScore++;
                                 blockCant--;
