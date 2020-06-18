@@ -53,7 +53,7 @@ namespace Wookies_arkanoid.Vista
                         bool added = PlayerDAO.addUser(p);
                         if (added == true)
                         {
-                            Play formGame = new Play();
+                            Play formGame = new Play(p);
                             formGame.Show();
                             this.Close();
                         }

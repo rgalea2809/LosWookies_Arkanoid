@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Wookies_arkanoid.Controlador.AppObjects;
+using Wookies_arkanoid.TOP10;
 
 namespace Wookies_arkanoid.Game
 {
@@ -13,13 +15,15 @@ namespace Wookies_arkanoid.Game
         private int countScore=0;
         private int hearts = 3;
         private int blockCant = 72;
+        private Player player;
         
-        public Play()
+        public Play(Player p)
         {
             InitializeComponent();
             Height = ClientSize.Height;
             Width = ClientSize.Width;
             WindowState = FormWindowState.Maximized;
+            player = p;
             MessageBox.Show("HOW TO PLAY?\n- Move the bar with your mouse pointer\n" +
                             "- Press SPACE BAR to release the ball\n-Have Fun!");
         }
@@ -244,12 +248,13 @@ namespace Wookies_arkanoid.Game
             string message = $"You Scored:\nHearts ({hearts}) x 10 pts.\n" +
                              $"ScorePoints= {countScore} pts.\n TOTAL: {totalScore} pts! \n" +
                              $"Do you want to play again?";  
-            string title = hearts >0 ? "GG EZ!":"GAME OVER";  
+            string title = hearts >0 ? "GG EZ!":"GAME OVER";
+            TopClassDAO.AddtoScoreboard(player.nickname, totalScore);
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;  
             DialogResult result = MessageBox.Show(message, title, buttons);  
             if (result == DialogResult.Yes) {
                 DataGame.startGame =false;
-                Play newGame = new Play();
+                Play newGame = new Play(player);
                 this.Close();
                 newGame.Show();
             } else {  

@@ -33,7 +33,7 @@ namespace Wookies_arkanoid.Vista
             if (cmbUserLogin1.SelectedValue.Equals(txtPasswordLogin1.Text))
             {
                 Player p = (Player) cmbUserLogin1.SelectedItem;
-                Play formGame = new Play();
+                Play formGame = new Play(p);
                 formGame.Show();
                 this.Close();
             }

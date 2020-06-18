@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Windows.Forms;
 using Wookies_arkanoid.Controlador;
 
 namespace Wookies_arkanoid.TOP10
@@ -28,5 +29,18 @@ namespace Wookies_arkanoid.TOP10
 
             return scoreBoard;
         }
+
+         public static void AddtoScoreboard(string nickname, int score)
+         {
+             try
+             {
+                 Connection_BD.ExecuteNonQuery($"INSERT INTO top VALUES('{nickname}', {score})");
+
+             }
+             catch (Exception exception)
+             {
+                 Console.WriteLine("Ha ocurrido un error");
+             }
+         }
     }
 }
