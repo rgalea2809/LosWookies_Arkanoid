@@ -28,12 +28,16 @@ namespace Wookies_arkanoid.Game
                             "- Press SPACE BAR to release the ball\n-Have Fun!");
         }
 
+        //Este evento sirve para que cuando ejecutemos el programa y esta ventana se ejecute, aparezcan todos los
+        //elementos creados en el.
         private void Play_Load(object sender, EventArgs e)
         {
+            
+            //Creacion de los label y picture box que se utilizaran en la ventana(Player,Ball,Lives).
             picPlay1.BackgroundImage = Image.FromFile("../../Img/Player.png");
             picPlay1.BackgroundImageLayout = ImageLayout.Stretch;
 
-            picPlay1.Top = (Height - picPlay1.Height) - 80;
+            picPlay1.Top = (Height - picPlay1.Height) - 100;
             picPlay1.Left = (Width / 2) - (picPlay1.Width / 2);
             
             picPlay2.BackgroundImage = Image.FromFile("../../Img/Heart.png");
@@ -41,7 +45,7 @@ namespace Wookies_arkanoid.Game
             
             score = new Label();
             score.Size = new Size(180, 60);
-            score.Location = new Point((Width - score.Width) - 50);
+            score.Location = new Point((Width - score.Width) - 80);
             score.Text = $"Score: {countScore}";
             score.TextAlign = ContentAlignment.MiddleCenter;
             score.Font = new System.Drawing.Font("Comic Sans MS", 22,FontStyle.Bold, 
@@ -76,7 +80,9 @@ namespace Wookies_arkanoid.Game
 
             tmrPlay.Start();
         }
-
+        
+        //Metodo para recargar una ventana nueva, cuando el jugador reinicia el juego, ya sea porque perdio todas
+        //sus vidas o termino y quiere jugar de nuevo.
         private void ReloadGame()
         {
             lives.Text = $"{hearts}";
@@ -90,6 +96,7 @@ namespace Wookies_arkanoid.Game
             Controls.Add(ball);
         }
         
+        //Metodo que crea a la matriz de bloques de picture Box.
         private void LoadBricks()
         {
             //12,6
@@ -137,6 +144,7 @@ namespace Wookies_arkanoid.Game
 
         }
 
+        //Evento para que al mover el mouse de izquierda a derecha el Player o base se mueva tambien.
         private void Play_MouseMove(object sender, MouseEventArgs e)
         {
             if (!DataGame.startGame)
@@ -152,6 +160,7 @@ namespace Wookies_arkanoid.Game
             }
         }
 
+        //Evento para empezar el juego al dar Enter.
         private void Play_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
@@ -159,6 +168,7 @@ namespace Wookies_arkanoid.Game
                 DataGame.startGame = true;
         }
 
+        //El timer permite que el juego funcione o por decirlo asi, se anime y ejecute el movimeinto de la bola.
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (!DataGame.startGame)
@@ -169,12 +179,13 @@ namespace Wookies_arkanoid.Game
             bounceBall(sender, e);
         }
         
+        //Metodo que permite el funcionamiento y moviemnto de la bola.
         private void bounceBall(object sender, EventArgs e)
         {
             score.Text = "Score :" + countScore;
             lives.Text = $"{hearts}";
 
-            //if ball hits floor
+            //si la bola toca el suelo:
             if (ball.Bottom > Height)
             {
                 if (hearts > 0)
@@ -197,6 +208,7 @@ namespace Wookies_arkanoid.Game
                 }
             }
 
+            //Para que la bola rebote en los bordes y no se salga de ellos.
             if (ball.Bottom < Top +105)
             {
                 DataGame.dirY = -DataGame.dirY;
@@ -209,6 +221,8 @@ namespace Wookies_arkanoid.Game
                 return;
             }
 
+            //En este if anidado,permite hacer que los bloques se eliminen, cuando la bola
+            //choca con alguno de ellos.
             if (ball.Bounds.IntersectsWith(picPlay1.Bounds))
                 
                 DataGame.dirY = -DataGame.dirY;
@@ -227,7 +241,7 @@ namespace Wookies_arkanoid.Game
                             if (dpb[i, j].Golpes == 0)
                             {
                                 
-                                //Add more points depending on the color of the block:
+                                //Agregar mas puntos dependiendo del color del bloque.
                                 if (i== 4)
                                 {
                                     countScore++;
@@ -265,6 +279,8 @@ namespace Wookies_arkanoid.Game
             }
         }
 
+        //Metodo que al terminar el juego le da los puntajes ontenidos al jugador, tambien permite que el jugador
+        //elija si quiere jugar nuevamente o no.
         private void gameEnded(int totalScore, int score, int hearts)
         {
             string message = $"You Scored:\nHearts ({hearts}) x 10 pts.\n" +
