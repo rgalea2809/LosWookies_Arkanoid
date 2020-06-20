@@ -95,6 +95,7 @@
         <Compile Include="Controlador\Connection BD.cs" />
         <Compile Include="Controlador\DAO\PlayerDAO.cs" />
         <Compile Include="Exceptions\EmptyFormFieldException.cs" />
+        <Compile Include="Exceptions\IncorrectPasswordException.cs" />
         <Compile Include="Exceptions\NonMatchingPasswordValidationException.cs" />
         <Compile Include="Game\DataGame.cs" />
         <Compile Include="Game\DesignPictureBox.cs" />

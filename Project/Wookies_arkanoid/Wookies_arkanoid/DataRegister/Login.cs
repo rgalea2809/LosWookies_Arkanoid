@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using Wookies_arkanoid.Controlador.AppObjects;
 using Wookies_arkanoid.Controlador.DAO;
+using Wookies_arkanoid.Exceptions;
 using Wookies_arkanoid.Game;
 
 namespace Wookies_arkanoid.Vista
@@ -30,18 +31,26 @@ namespace Wookies_arkanoid.Vista
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            if (cmbUserLogin1.SelectedValue.Equals(txtPasswordLogin1.Text))
+            try
             {
-                Player p = (Player) cmbUserLogin1.SelectedItem;
-                Play formGame = new Play(p);
-                formGame.Show();
-                this.Close();
+                if (!cmbUserLogin1.SelectedValue.Equals(txtPasswordLogin1.Text))
+                {
+                    throw new IncorrectPasswordException("Invalid Password, try again!");
+                }
+                else
+                {
+                    Player p = (Player) cmbUserLogin1.SelectedItem;
+                    Play formGame = new Play(p);
+                    formGame.Show();
+                    this.Close();
+                }
             }
-            else
+            catch (IncorrectPasswordException exception)
             {
-                MessageBox.Show("Contraseña incorrecta!", "Error", MessageBoxButtons.OK,
+                MessageBox.Show(exception.Message, "Error", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
             }
+            
         }
         
         private void loadObjects()

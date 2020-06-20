@@ -55,16 +55,16 @@ namespace Wookies_arkanoid.Vista
             this.tlpChangePassword1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tlpChangePassword1.ColumnCount = 1;
             this.tlpChangePassword1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpChangePassword1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tlpChangePassword1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpChangePassword1.Controls.Add(this.grpChangePassword1, 0, 0);
             this.tlpChangePassword1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpChangePassword1.Location = new System.Drawing.Point(0, 0);
-            this.tlpChangePassword1.Margin = new System.Windows.Forms.Padding(2);
+            this.tlpChangePassword1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tlpChangePassword1.Name = "tlpChangePassword1";
             this.tlpChangePassword1.RowCount = 1;
             this.tlpChangePassword1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpChangePassword1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 491F));
-            this.tlpChangePassword1.Size = new System.Drawing.Size(806, 491);
+            this.tlpChangePassword1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 604F));
+            this.tlpChangePassword1.Size = new System.Drawing.Size(1075, 604);
             this.tlpChangePassword1.TabIndex = 0;
             // 
             // grpChangePassword1
@@ -84,11 +84,11 @@ namespace Wookies_arkanoid.Vista
             this.grpChangePassword1.Controls.Add(this.lblOldPassword2);
             this.grpChangePassword1.Font = new System.Drawing.Font("Microsoft Sans Serif", 37.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.grpChangePassword1.ForeColor = System.Drawing.Color.White;
-            this.grpChangePassword1.Location = new System.Drawing.Point(128, 32);
-            this.grpChangePassword1.Margin = new System.Windows.Forms.Padding(2);
+            this.grpChangePassword1.Location = new System.Drawing.Point(171, 39);
+            this.grpChangePassword1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpChangePassword1.Name = "grpChangePassword1";
-            this.grpChangePassword1.Padding = new System.Windows.Forms.Padding(2);
-            this.grpChangePassword1.Size = new System.Drawing.Size(549, 427);
+            this.grpChangePassword1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpChangePassword1.Size = new System.Drawing.Size(732, 526);
             this.grpChangePassword1.TabIndex = 0;
             this.grpChangePassword1.TabStop = false;
             this.grpChangePassword1.Text = "CHANGE PASSWORD";
@@ -97,19 +97,18 @@ namespace Wookies_arkanoid.Vista
             // 
             this.cmbUser1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.cmbUser1.FormattingEnabled = true;
-            this.cmbUser1.Location = new System.Drawing.Point(264, 104);
-            this.cmbUser1.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbUser1.Location = new System.Drawing.Point(352, 128);
+            this.cmbUser1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbUser1.Name = "cmbUser1";
-            this.cmbUser1.Size = new System.Drawing.Size(234, 38);
+            this.cmbUser1.Size = new System.Drawing.Size(311, 46);
             this.cmbUser1.TabIndex = 9;
             // 
             // lblUser1
             // 
             this.lblUser1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblUser1.Location = new System.Drawing.Point(107, 109);
-            this.lblUser1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUser1.Location = new System.Drawing.Point(143, 134);
             this.lblUser1.Name = "lblUser1";
-            this.lblUser1.Size = new System.Drawing.Size(134, 17);
+            this.lblUser1.Size = new System.Drawing.Size(179, 21);
             this.lblUser1.TabIndex = 8;
             this.lblUser1.Text = "USERNAME:";
             // 
@@ -117,10 +116,10 @@ namespace Wookies_arkanoid.Vista
             // 
             this.changepwdBTN.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
             this.changepwdBTN.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.changepwdBTN.Location = new System.Drawing.Point(308, 340);
-            this.changepwdBTN.Margin = new System.Windows.Forms.Padding(2);
+            this.changepwdBTN.Location = new System.Drawing.Point(411, 418);
+            this.changepwdBTN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.changepwdBTN.Name = "changepwdBTN";
-            this.changepwdBTN.Size = new System.Drawing.Size(188, 34);
+            this.changepwdBTN.Size = new System.Drawing.Size(251, 42);
             this.changepwdBTN.TabIndex = 7;
             this.changepwdBTN.Text = "CHANGE PASSWORD";
             this.changepwdBTN.UseVisualStyleBackColor = false;
@@ -130,10 +129,10 @@ namespace Wookies_arkanoid.Vista
             // 
             this.bttnBack1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
             this.bttnBack1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.bttnBack1.Location = new System.Drawing.Point(78, 340);
-            this.bttnBack1.Margin = new System.Windows.Forms.Padding(2);
+            this.bttnBack1.Location = new System.Drawing.Point(104, 418);
+            this.bttnBack1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttnBack1.Name = "bttnBack1";
-            this.bttnBack1.Size = new System.Drawing.Size(110, 34);
+            this.bttnBack1.Size = new System.Drawing.Size(147, 42);
             this.bttnBack1.TabIndex = 6;
             this.bttnBack1.Text = "<<BACK";
             this.bttnBack1.UseVisualStyleBackColor = false;
@@ -142,67 +141,64 @@ namespace Wookies_arkanoid.Vista
             // txtCNewPassword3
             // 
             this.txtCNewPassword3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtCNewPassword3.Location = new System.Drawing.Point(264, 275);
-            this.txtCNewPassword3.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCNewPassword3.Location = new System.Drawing.Point(352, 338);
+            this.txtCNewPassword3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCNewPassword3.Name = "txtCNewPassword3";
-            this.txtCNewPassword3.Size = new System.Drawing.Size(234, 38);
+            this.txtCNewPassword3.Size = new System.Drawing.Size(311, 46);
             this.txtCNewPassword3.TabIndex = 5;
             // 
             // lblCNewPassword4
             // 
             this.lblCNewPassword4.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblCNewPassword4.Location = new System.Drawing.Point(33, 278);
-            this.lblCNewPassword4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCNewPassword4.Location = new System.Drawing.Point(44, 342);
             this.lblCNewPassword4.Name = "lblCNewPassword4";
-            this.lblCNewPassword4.Size = new System.Drawing.Size(216, 24);
+            this.lblCNewPassword4.Size = new System.Drawing.Size(288, 30);
             this.lblCNewPassword4.TabIndex = 4;
             this.lblCNewPassword4.Text = " CONFIRM NEW PASSWORD:";
             // 
             // txtNewPassword2
             // 
             this.txtNewPassword2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtNewPassword2.Location = new System.Drawing.Point(264, 223);
-            this.txtNewPassword2.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNewPassword2.Location = new System.Drawing.Point(352, 274);
+            this.txtNewPassword2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNewPassword2.Name = "txtNewPassword2";
-            this.txtNewPassword2.Size = new System.Drawing.Size(234, 38);
+            this.txtNewPassword2.Size = new System.Drawing.Size(311, 46);
             this.txtNewPassword2.TabIndex = 3;
             // 
             // lblNewPassword3
             // 
             this.lblNewPassword3.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblNewPassword3.Location = new System.Drawing.Point(107, 226);
-            this.lblNewPassword3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNewPassword3.Location = new System.Drawing.Point(143, 278);
             this.lblNewPassword3.Name = "lblNewPassword3";
-            this.lblNewPassword3.Size = new System.Drawing.Size(142, 28);
+            this.lblNewPassword3.Size = new System.Drawing.Size(189, 34);
             this.lblNewPassword3.TabIndex = 2;
             this.lblNewPassword3.Text = "NEW PASSWORD:";
             // 
             // txtOldPassword1
             // 
             this.txtOldPassword1.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtOldPassword1.Location = new System.Drawing.Point(264, 173);
-            this.txtOldPassword1.Margin = new System.Windows.Forms.Padding(2);
+            this.txtOldPassword1.Location = new System.Drawing.Point(352, 213);
+            this.txtOldPassword1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtOldPassword1.Name = "txtOldPassword1";
-            this.txtOldPassword1.Size = new System.Drawing.Size(234, 38);
+            this.txtOldPassword1.Size = new System.Drawing.Size(311, 46);
             this.txtOldPassword1.TabIndex = 1;
             // 
             // lblOldPassword2
             // 
             this.lblOldPassword2.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.lblOldPassword2.Location = new System.Drawing.Point(107, 175);
-            this.lblOldPassword2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblOldPassword2.Location = new System.Drawing.Point(143, 215);
             this.lblOldPassword2.Name = "lblOldPassword2";
-            this.lblOldPassword2.Size = new System.Drawing.Size(134, 17);
+            this.lblOldPassword2.Size = new System.Drawing.Size(179, 21);
             this.lblOldPassword2.TabIndex = 0;
             this.lblOldPassword2.Text = "OLD PASSWORD:";
             // 
             // ChangePassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(806, 491);
+            this.ClientSize = new System.Drawing.Size(1075, 604);
             this.Controls.Add(this.tlpChangePassword1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ChangePassword";
             this.Text = "ChangePassword";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

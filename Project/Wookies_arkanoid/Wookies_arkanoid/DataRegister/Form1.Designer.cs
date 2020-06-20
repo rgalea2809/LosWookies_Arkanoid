@@ -40,50 +40,52 @@
             this.tlpMainMenu1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tlpMainMenu1.ColumnCount = 1;
             this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpMainMenu1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpMainMenu1.Controls.Add(this.MainMenuUI1, 0, 0);
             this.tlpMainMenu1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpMainMenu1.Location = new System.Drawing.Point(0, 0);
-            this.tlpMainMenu1.Margin = new System.Windows.Forms.Padding(2);
+            this.tlpMainMenu1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tlpMainMenu1.Name = "tlpMainMenu1";
             this.tlpMainMenu1.RowCount = 1;
             this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 521F));
-            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 521F));
-            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 521F));
-            this.tlpMainMenu1.Size = new System.Drawing.Size(680, 521);
+            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 641F));
+            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 641F));
+            this.tlpMainMenu1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 641F));
+            this.tlpMainMenu1.Size = new System.Drawing.Size(907, 641);
             this.tlpMainMenu1.TabIndex = 0;
             // 
             // MainMenuUI1
             // 
             this.MainMenuUI1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainMenuUI1.Location = new System.Drawing.Point(2, 2);
-            this.MainMenuUI1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MainMenuUI1.Location = new System.Drawing.Point(3, 2);
+            this.MainMenuUI1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MainMenuUI1.Name = "MainMenuUI1";
-            this.MainMenuUI1.Size = new System.Drawing.Size(676, 517);
+            this.MainMenuUI1.Size = new System.Drawing.Size(901, 637);
             this.MainMenuUI1.TabIndex = 0;
             this.MainMenuUI1.VisibleChanged += new System.EventHandler(this.mainmenuUI1_VisibleChanged);
             // 
             // Form1
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(680, 521);
+            this.ClientSize = new System.Drawing.Size(907, 641);
+            this.ControlBox = false;
             this.Controls.Add(this.tlpMainMenu1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.tlpMainMenu1.ResumeLayout(false);
             this.ResumeLayout(false);
         }

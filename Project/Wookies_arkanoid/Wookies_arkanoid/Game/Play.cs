@@ -12,7 +12,7 @@ namespace Wookies_arkanoid.Game
         private PictureBox ball;
         private Label score;
         private Label lives;
-        private int countScore=0;
+        private int countScore = 000;
         private int hearts = 3;
         private int blockCant = 72;
         private Player player;
@@ -44,8 +44,8 @@ namespace Wookies_arkanoid.Game
             picPlay2.BackgroundImageLayout = ImageLayout.Stretch;
             
             score = new Label();
-            score.Size = new Size(180, 60);
-            score.Location = new Point((Width - score.Width) - 80);
+            score.Size = new Size(220, 60);
+            score.Location = new Point((Width - score.Width) - 100);
             score.Text = $"Score: {countScore}";
             score.TextAlign = ContentAlignment.MiddleCenter;
             score.Font = new System.Drawing.Font("Comic Sans MS", 22,FontStyle.Bold, 
@@ -116,7 +116,7 @@ namespace Wookies_arkanoid.Game
                 {
                     dpb[i, j] = new DesignPictureBox();
 
-                    if (i == 0)
+                    if (i == 0 || i == 5)
                     {
                         dpb[i, j].Golpes = 2;
                     }
@@ -141,7 +141,6 @@ namespace Wookies_arkanoid.Game
                     
                 }
             }
-
         }
 
         //Evento para que al mover el mouse de izquierda a derecha el Player o base se mueva tambien.
@@ -260,7 +259,7 @@ namespace Wookies_arkanoid.Game
                                 }
                                 if (i == 0)
                                 {
-                                    countScore += 4;
+                                    countScore += 1;
                                 }
                                 Controls.Remove(dpb[i, j]);
                                 countScore++;

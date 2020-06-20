@@ -19,10 +19,16 @@ namespace Wookies_arkanoid
 
         private void mainmenuUI1_VisibleChanged(object sender, EventArgs e)
         {
+            //Hides form if User control is hidden.
             if (MainMenuUI1.Visible == false)
             {
                 this.Hide();
             }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

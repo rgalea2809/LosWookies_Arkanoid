@@ -6,12 +6,12 @@ namespace Wookies_arkanoid.Controlador
     public class Connection_BD
     {
         private static string host = "localhost",
-            database = "arkanoid",
+            database = "Arkanoid",
             userId = "postgres",
-            password = "melissita1";
+            password = "uca";
 
         private static string sConnection =
-            $"Server={host};Port=1234;User Id={userId};Password={password};Database={database};";
+            $"Server={host};Port=5432;User Id={userId};Password={password};Database={database};";
 
         public static DataTable ExecuteQuery(string query)
         {

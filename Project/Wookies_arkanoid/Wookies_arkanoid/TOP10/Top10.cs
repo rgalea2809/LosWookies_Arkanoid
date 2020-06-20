@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace Wookies_arkanoid.TOP10
 {
@@ -14,91 +15,62 @@ namespace Wookies_arkanoid.TOP10
         
         private void topfill()
         {
+            //Sorting algorithm for top10 scoreboard using linq
             List<userScore> scoreBoard = TopClassDAO.getScores();
+            List<userScore> scores = scoreBoard.OrderByDescending(o=>o.playerscore).ToList();
 
-            Stack<userScore> stack = new Stack<userScore>();
-            Stack<userScore> stackAux = new Stack<userScore>();
-            
-            foreach (var user in scoreBoard)
-            {
-                if (stack.Count == 0)
-                {
-                    stack.Push(user);
-                }
-                else
-                {
-                    bool larger = true;
-                    while (larger)
-                    {
-                        if (stack.Peek().playerscore >= user.playerscore)
-                        {
-                            stackAux.Push(stack.Pop());
-                            break;
-                        }
-                        stack.Push(user);
-                        larger = false;
-                    }
-
-                    for (int i = 0; i < stackAux.Count; i++)
-                    {
-                        stack.Push(stackAux.Pop());
-                    }
-                }
-            }
-            var clonedStack = new Stack<userScore>(new Stack<userScore>(stack));
-            for (int i = 0; i < stack.Count; i++)
+            for (int i = 0; i < scores.Count; i++)
             {
                 if (i == 0)
                 {
-                    user1.Text = clonedStack.Peek().nickname;
-                    score1.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user1.Text = scores[i].nickname;
+                    score1.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 1)
                 {
-                    user2.Text = clonedStack.Peek().nickname;
-                    score2.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user2.Text = scores[i].nickname;
+                    score2.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 2)
                 {
-                    user3.Text = clonedStack.Peek().nickname;
-                    score3.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user3.Text = scores[i].nickname;
+                    score3.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 3)
                 {
-                    user4.Text = clonedStack.Peek().nickname;
-                    score4.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user4.Text = scores[i].nickname;
+                    score4.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 4)
                 {
-                    user5.Text = clonedStack.Peek().nickname;
-                    score5.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user5.Text = scores[i].nickname;
+                    score5.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 5)
                 {
-                    user6.Text = clonedStack.Peek().nickname;
-                    score6.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user6.Text = scores[i].nickname;
+                    score6.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 6)
                 {
-                    user7.Text = clonedStack.Peek().nickname;
-                    score7.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user7.Text = scores[i].nickname;
+                    score7.Text =scores[i].playerscore.ToString();
                 }
                 if (i == 7)
                 {
-                    user8.Text = clonedStack.Peek().nickname;
-                    score8.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user8.Text = scores[i].nickname;
+                    score8.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 8)
                 {
-                    user9.Text = clonedStack.Peek().nickname;
-                    score9.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user9.Text = scores[i].nickname;
+                    score9.Text = scores[i].playerscore.ToString();
                 }
                 if (i == 9)
                 {
-                    user10.Text = clonedStack.Peek().nickname;
-                    score10.Text = Convert.ToString(clonedStack.Pop().playerscore);
+                    user10.Text = scores[i].nickname;
+                    score10.Text = scores[i].playerscore.ToString();
                 }
-                
             }
         }
 

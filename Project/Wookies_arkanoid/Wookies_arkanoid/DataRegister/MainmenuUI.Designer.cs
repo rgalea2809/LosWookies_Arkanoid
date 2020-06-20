@@ -62,14 +62,14 @@ namespace Wookies_arkanoid
             this.tlpMainMenuUI.Controls.Add(this.picPlayMM2, 3, 3);
             this.tlpMainMenuUI.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpMainMenuUI.Location = new System.Drawing.Point(0, 0);
-            this.tlpMainMenuUI.Margin = new System.Windows.Forms.Padding(2);
+            this.tlpMainMenuUI.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tlpMainMenuUI.Name = "tlpMainMenuUI";
             this.tlpMainMenuUI.RowCount = 4;
             this.tlpMainMenuUI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tlpMainMenuUI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpMainMenuUI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tlpMainMenuUI.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tlpMainMenuUI.Size = new System.Drawing.Size(730, 552);
+            this.tlpMainMenuUI.Size = new System.Drawing.Size(973, 679);
             this.tlpMainMenuUI.TabIndex = 0;
             // 
             // picTitle4
@@ -79,10 +79,10 @@ namespace Wookies_arkanoid
             this.picTitle4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.tlpMainMenuUI.SetColumnSpan(this.picTitle4, 5);
             this.picTitle4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picTitle4.Location = new System.Drawing.Point(75, 84);
-            this.picTitle4.Margin = new System.Windows.Forms.Padding(2);
+            this.picTitle4.Location = new System.Drawing.Point(100, 103);
+            this.picTitle4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picTitle4.Name = "picTitle4";
-            this.picTitle4.Size = new System.Drawing.Size(580, 106);
+            this.picTitle4.Size = new System.Drawing.Size(770, 131);
             this.picTitle4.TabIndex = 0;
             this.picTitle4.TabStop = false;
             // 
@@ -92,10 +92,10 @@ namespace Wookies_arkanoid
             this.picScoresMM1.BackColor = System.Drawing.Color.Transparent;
             this.picScoresMM1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("picScoresMM1.BackgroundImage")));
             this.picScoresMM1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picScoresMM1.Location = new System.Drawing.Point(75, 414);
-            this.picScoresMM1.Margin = new System.Windows.Forms.Padding(2);
+            this.picScoresMM1.Location = new System.Drawing.Point(100, 509);
+            this.picScoresMM1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picScoresMM1.Name = "picScoresMM1";
-            this.picScoresMM1.Size = new System.Drawing.Size(142, 48);
+            this.picScoresMM1.Size = new System.Drawing.Size(188, 48);
             this.picScoresMM1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picScoresMM1.TabIndex = 1;
             this.picScoresMM1.TabStop = false;
@@ -107,10 +107,10 @@ namespace Wookies_arkanoid
             this.picExitMM3.BackColor = System.Drawing.Color.Transparent;
             this.picExitMM3.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("picExitMM3.BackgroundImage")));
             this.picExitMM3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picExitMM3.Location = new System.Drawing.Point(513, 414);
-            this.picExitMM3.Margin = new System.Windows.Forms.Padding(2);
+            this.picExitMM3.Location = new System.Drawing.Point(682, 509);
+            this.picExitMM3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picExitMM3.Name = "picExitMM3";
-            this.picExitMM3.Size = new System.Drawing.Size(142, 48);
+            this.picExitMM3.Size = new System.Drawing.Size(188, 59);
             this.picExitMM3.TabIndex = 3;
             this.picExitMM3.TabStop = false;
             this.picExitMM3.Click += new System.EventHandler(this.ExitMM_Click);
@@ -121,22 +121,22 @@ namespace Wookies_arkanoid
             this.picPlayMM2.BackColor = System.Drawing.Color.Transparent;
             this.picPlayMM2.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("picPlayMM2.BackgroundImage")));
             this.picPlayMM2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picPlayMM2.Location = new System.Drawing.Point(294, 414);
-            this.picPlayMM2.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayMM2.Location = new System.Drawing.Point(391, 509);
+            this.picPlayMM2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picPlayMM2.Name = "picPlayMM2";
-            this.picPlayMM2.Size = new System.Drawing.Size(142, 70);
+            this.picPlayMM2.Size = new System.Drawing.Size(188, 86);
             this.picPlayMM2.TabIndex = 2;
             this.picPlayMM2.TabStop = false;
             this.picPlayMM2.Click += new System.EventHandler(this.botonPlayMM_Click);
             // 
             // MainmenuUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tlpMainMenuUI);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainmenuUI";
-            this.Size = new System.Drawing.Size(730, 552);
+            this.Size = new System.Drawing.Size(973, 679);
             this.tlpMainMenuUI.ResumeLayout(false);
             this.tlpMainMenuUI.PerformLayout();
             ((System.ComponentModel.ISupportInitialize) (this.picTitle4)).EndInit();

@@ -172,6 +172,7 @@ namespace Wookies_arkanoid.Vista
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 500);
+            this.ControlBox = false;
             this.Controls.Add(this.tlpLogin1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;

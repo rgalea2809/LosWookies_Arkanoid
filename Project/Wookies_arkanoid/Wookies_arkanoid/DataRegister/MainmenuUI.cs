@@ -14,6 +14,7 @@ namespace Wookies_arkanoid
 
         private void botonPlayMM_Click(object sender, EventArgs e)
         {
+            //Create LogIn form
             Login FormLogin = new Login();
             FormLogin.Show();
             this.Hide();
@@ -21,6 +22,7 @@ namespace Wookies_arkanoid
 
         private void botonTop10MM_Click(object sender, EventArgs e)
         {
+            //Create TOP10 form
             Top10 FormTop10 = new Top10();
             FormTop10.Show();
             this.Hide();
