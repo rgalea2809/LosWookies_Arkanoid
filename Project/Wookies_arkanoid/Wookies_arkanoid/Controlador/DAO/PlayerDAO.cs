@@ -22,8 +22,7 @@ namespace Wookies_arkanoid.Controlador.DAO
             }
             return lista;
         }
-
-
+        
         public static bool addUser(Player u)
         {
             try

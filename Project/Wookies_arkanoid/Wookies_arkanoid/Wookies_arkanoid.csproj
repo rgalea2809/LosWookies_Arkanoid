@@ -97,6 +97,7 @@
         <Compile Include="Exceptions\EmptyFormFieldException.cs" />
         <Compile Include="Exceptions\IncorrectPasswordException.cs" />
         <Compile Include="Exceptions\NonMatchingPasswordValidationException.cs" />
+        <Compile Include="Exceptions\UserNameAlreadyExistsException.cs" />
         <Compile Include="Game\DataGame.cs" />
         <Compile Include="Game\DesignPictureBox.cs" />
         <Compile Include="Game\Play.cs">
@@ -113,11 +114,11 @@
         <Compile Include="DataRegister\ChangePassword.Designer.cs">
           <DependentUpon>ChangePassword.cs</DependentUpon>
         </Compile>
-        <Compile Include="DataRegister\Form1.cs">
+        <Compile Include="DataRegister\FormMainMenu.cs">
           <SubType>Form</SubType>
         </Compile>
-        <Compile Include="DataRegister\Form1.Designer.cs">
-          <DependentUpon>Form1.cs</DependentUpon>
+        <Compile Include="DataRegister\FormMainMenu.Designer.cs">
+          <DependentUpon>FormMainMenu.cs</DependentUpon>
         </Compile>
         <Compile Include="DataRegister\Login.cs">
           <SubType>Form</SubType>
@@ -160,8 +161,8 @@
         <EmbeddedResource Include="DataRegister\ChangePassword.resx">
           <DependentUpon>ChangePassword.cs</DependentUpon>
         </EmbeddedResource>
-        <EmbeddedResource Include="DataRegister\Form1.resx">
-          <DependentUpon>Form1.cs</DependentUpon>
+        <EmbeddedResource Include="DataRegister\FormMainMenu.resx">
+          <DependentUpon>FormMainMenu.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="DataRegister\Login.resx">
           <DependentUpon>Login.cs</DependentUpon>

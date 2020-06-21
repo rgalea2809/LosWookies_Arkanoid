@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using Wookies_arkanoid.Controlador.AppObjects;
 using Wookies_arkanoid.Controlador.DAO;
@@ -50,6 +51,17 @@ namespace Wookies_arkanoid.Vista
                         Player p = new Player();
                         p.nickname = txtUserSignup1.Text;
                         p.password = txtPasswordSignup2.Text;
+                        List<Player> players = PlayerDAO.getPlayers();
+
+                        foreach (var player in players)
+                        {
+                            if (player.nickname.Equals(p.nickname))
+                            {
+                                throw new UserNameAlreadyExistsException("User name already taken, " +
+                                                                         "please think of a new one");
+                            }
+                        }
+                        
                         bool added = PlayerDAO.addUser(p);
                         if (added == true)
                         {
@@ -59,6 +71,10 @@ namespace Wookies_arkanoid.Vista
                         }
                     }
                 }
+            }
+            catch (UserNameAlreadyExistsException exception)
+            {
+                MessageBox.Show(exception.Message);
             }
             catch (EmptyFormFieldException exception)
             {
