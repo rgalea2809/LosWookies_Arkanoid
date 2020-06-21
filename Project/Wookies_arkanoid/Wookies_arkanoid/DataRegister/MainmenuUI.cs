@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Wookies_arkanoid.Events;
 using Wookies_arkanoid.TOP10;
 using Wookies_arkanoid.Vista;
 
@@ -14,17 +15,17 @@ namespace Wookies_arkanoid
 
         private void botonPlayMM_Click(object sender, EventArgs e)
         {
-            //Create LogIn form
-            Login FormLogin = new Login();
-            FormLogin.Show();
+            //Go to LogIn Screen
+            PlayEvent playEvent = new PlayEvent();
+            playEvent.Event(sender, e, null);
             this.Hide();
         }
 
         private void botonTop10MM_Click(object sender, EventArgs e)
         {
             //Create TOP10 form
-            Top10 FormTop10 = new Top10();
-            FormTop10.Show();
+            ScoresEvent top10 = new ScoresEvent();
+            top10.Event(sender, e, null);
             this.Hide();
         }
 

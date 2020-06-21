@@ -45,7 +45,8 @@ namespace Wookies_arkanoid.Vista
                     if (txtPasswordSignup2.Text != txtConfirmSignup3.Text)
                     {
                         throw new NonMatchingPasswordValidationException("Error en su contraseña. " +
-                                                                         "Escriba la misma contraseña en ambos campos");
+                                                                         "Escriba la misma contraseña en " +
+                                                                         "ambos campos");
                     }
                     else
                     {

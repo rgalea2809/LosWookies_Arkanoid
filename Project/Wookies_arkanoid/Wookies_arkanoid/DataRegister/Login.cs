@@ -2,8 +2,8 @@
 using System.Windows.Forms;
 using Wookies_arkanoid.Controlador.AppObjects;
 using Wookies_arkanoid.Controlador.DAO;
+using Wookies_arkanoid.Events;
 using Wookies_arkanoid.Exceptions;
-using Wookies_arkanoid.Game;
 
 namespace Wookies_arkanoid.Vista
 {
@@ -17,15 +17,15 @@ namespace Wookies_arkanoid.Vista
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Signin formSignup = new Signin();
-            formSignup.Show();
+            SignUpEventArgs signUpEvent = new SignUpEventArgs();
+            signUpEvent.Event(sender, e, null);
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ChangePassword formChangepwd = new ChangePassword();
-            formChangepwd.Show();
+            ChangePasswordEventArgs changePasswordevent = new ChangePasswordEventArgs();
+            changePasswordevent.Event(sender, e, null);
             this.Close();
         }
 
@@ -38,10 +38,10 @@ namespace Wookies_arkanoid.Vista
                     throw new IncorrectPasswordException("Invalid Password, try again!");
                 }
                 else
-                {
+                { 
                     Player p = (Player) cmbUserLogin1.SelectedItem;
-                    Play formGame = new Play(p);
-                    formGame.Show();
+                    StartEventArgs start = new StartEventArgs();
+                    start.Event(sender, e, p);
                     this.Close();
                 }
             }
@@ -50,7 +50,6 @@ namespace Wookies_arkanoid.Vista
                 MessageBox.Show(exception.Message, "Error", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
             }
-            
         }
         
         private void loadObjects()

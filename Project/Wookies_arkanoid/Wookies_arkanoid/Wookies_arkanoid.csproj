@@ -94,6 +94,12 @@
         <Compile Include="Controlador\AppObjects\Player.cs" />
         <Compile Include="Controlador\Connection BD.cs" />
         <Compile Include="Controlador\DAO\PlayerDAO.cs" />
+        <Compile Include="Events\ChangePasswordEventArgs.cs" />
+        <Compile Include="Events\GameEvents.cs" />
+        <Compile Include="Events\PlayEvent.cs" />
+        <Compile Include="Events\ScoresEvent.cs" />
+        <Compile Include="Events\SignUpEventArgs.cs" />
+        <Compile Include="Events\StartEventArgs.cs" />
         <Compile Include="Exceptions\EmptyFormFieldException.cs" />
         <Compile Include="Exceptions\IncorrectPasswordException.cs" />
         <Compile Include="Exceptions\NonMatchingPasswordValidationException.cs" />
