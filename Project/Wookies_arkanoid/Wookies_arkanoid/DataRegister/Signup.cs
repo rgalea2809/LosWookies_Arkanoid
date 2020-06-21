@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 using Wookies_arkanoid.Controlador.AppObjects;
 using Wookies_arkanoid.Controlador.DAO;
@@ -52,16 +53,21 @@ namespace Wookies_arkanoid.Vista
                         p.nickname = txtUserSignup1.Text;
                         p.password = txtPasswordSignup2.Text;
                         List<Player> players = PlayerDAO.getPlayers();
-
+                        if (!p.nickname.All(c => Char.IsLetterOrDigit(c)))
+                        {
+                            throw new UsernameContainsInvalidCharactersException("Por favor, " +
+                                                                                 "utilice solamente " +
+                                                                                 "números o letras en su " +
+                                                                                 "nombre de usuario.");
+                        }
                         foreach (var player in players)
                         {
                             if (player.nickname.Equals(p.nickname))
                             {
-                                throw new UserNameAlreadyExistsException("User name already taken, " +
-                                                                         "please think of a new one");
+                                throw new UserNameAlreadyExistsException("Nombre de Usuario no disponible, " +
+                                                                         "ingrese uno diferente");
                             }
                         }
-                        
                         bool added = PlayerDAO.addUser(p);
                         if (added == true)
                         {
@@ -71,6 +77,10 @@ namespace Wookies_arkanoid.Vista
                         }
                     }
                 }
+            }
+            catch (UsernameContainsInvalidCharactersException exception)
+            {
+                MessageBox.Show(exception.Message);
             }
             catch (UserNameAlreadyExistsException exception)
             {

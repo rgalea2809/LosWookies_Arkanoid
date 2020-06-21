@@ -98,6 +98,7 @@
         <Compile Include="Exceptions\IncorrectPasswordException.cs" />
         <Compile Include="Exceptions\NonMatchingPasswordValidationException.cs" />
         <Compile Include="Exceptions\UserNameAlreadyExistsException.cs" />
+        <Compile Include="Exceptions\UsernameContainsInvalidCharactersException.cs" />
         <Compile Include="Game\DataGame.cs" />
         <Compile Include="Game\DesignPictureBox.cs" />
         <Compile Include="Game\Play.cs">
