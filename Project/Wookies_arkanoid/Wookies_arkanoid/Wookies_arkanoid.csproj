@@ -94,6 +94,7 @@
         <Compile Include="Controlador\AppObjects\Player.cs" />
         <Compile Include="Controlador\Connection BD.cs" />
         <Compile Include="Controlador\DAO\PlayerDAO.cs" />
+        <Compile Include="Controlador\DAO\TopClassDAO.cs" />
         <Compile Include="Events\ChangePasswordEventArgs.cs" />
         <Compile Include="Events\GameEvents.cs" />
         <Compile Include="Events\PlayEvent.cs" />
@@ -152,7 +153,6 @@
           <DependentUpon>Top10.cs</DependentUpon>
         </Compile>
         <Compile Include="TOP10\TopClass.cs" />
-        <Compile Include="TOP10\TopClassDAO.cs" />
         <EmbeddedResource Include="Game\Play.resx">
           <DependentUpon>Play.cs</DependentUpon>
         </EmbeddedResource>
