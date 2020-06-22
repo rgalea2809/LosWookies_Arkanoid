@@ -14,8 +14,7 @@ namespace Wookies_arkanoid.TOP10
             //Returns all of the saved scores in the DB
             string sql = String.Format(
                 "SELECT * FROM  top");
-
-
+            
             DataTable dt = Connection_BD.ExecuteQuery(sql);
 
             List<userScore> scoreBoard = new List<userScore>();
@@ -26,9 +25,7 @@ namespace Wookies_arkanoid.TOP10
                 user.playerscore = Convert.ToInt32(fila[1].ToString());
 
                 scoreBoard.Add(user);
-
             }
-
             return scoreBoard;
         }
 

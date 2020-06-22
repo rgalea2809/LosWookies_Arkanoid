@@ -75,9 +75,7 @@ namespace Wookies_arkanoid.Game
             ball.Left = picPlay1.Left + (picPlay1.Width / 2) - (ball.Width / 2);
 
             Controls.Add(ball);
-
             LoadBricks();
-
             tmrPlay.Start();
         }
         
@@ -163,7 +161,6 @@ namespace Wookies_arkanoid.Game
         private void Play_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
-
                 DataGame.startGame = true;
         }
 

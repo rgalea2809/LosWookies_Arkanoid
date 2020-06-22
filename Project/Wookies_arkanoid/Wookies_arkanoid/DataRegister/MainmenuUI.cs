@@ -34,7 +34,5 @@ namespace Wookies_arkanoid
             ((Form)this.TopLevelControl).Dispose();
             Application.Exit();
         }
-
-    
     }
 }
