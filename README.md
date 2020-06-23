@@ -3,7 +3,7 @@
 ## Integrantes
 - Rodrigo Ernesto Mejía Galea			#00037119
 - Gabriela Beatriz Solórzano Nuila	#00185119
-- Melissa Yaneeth Guardado Espinoza #00033179
+- Melissa Yaneeth Guardado Espinoza #00033719
 - Carlos Enrique Guzmán Espinoza # 00031119
 
 ## IDE
