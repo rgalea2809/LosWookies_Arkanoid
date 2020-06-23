@@ -1,0 +1,26 @@
+CREATE DATABASE arkanoid
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE public.players
+(
+    nickname character varying(25) NOT NULL,
+    password character varying(25) NOT NULL,
+    CONSTRAINT pk_nickname PRIMARY KEY (nickname)
+);
+
+
+CREATE TABLE public.top
+(
+    nickname character varying(25) NOT NULL,
+    playerscore character varying(25) NOT NULL,
+    "idScore" serial NOT NULL,
+    CONSTRAINT pk_idscore PRIMARY KEY ("idScore"),
+    CONSTRAINT fk_nickname FOREIGN KEY (nickname)
+        REFERENCES public.players (nickname) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+);
